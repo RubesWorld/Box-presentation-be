@@ -16,11 +16,12 @@ router.get("/", (req, res) => {
       client_id: "kzd2wtczdmn178kdgsqfvgvmqve006qr",
       client_secret: "B93pv59N1d0kJnhxvJNUNUZSvkCSZ6xW",
       grant_type: "client_credentials",
-      box_subject_type: "user",
-      box_subject_id: "16385209802",
+      box_subject_type: "enterprise",
+      box_subject_id: "824487002",
     }),
   })
-    .then((res) => {
+    .then((response) => {
+      res.status(201).json(response.data);
       console.log("Auth res", res.data);
     })
     .catch((err) => {
