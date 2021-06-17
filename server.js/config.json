@@ -1,0 +1,12 @@
+{
+  "boxAppSettings": {
+    "clientID": "kzd2wtczdmn178kdgsqfvgvmqve006qr",
+    "clientSecret": "B93pv59N1d0kJnhxvJNUNUZSvkCSZ6xW",
+    "appAuth": {
+      "publicKeyID": "abcd1234",
+      "privateKey": "-----BEGIN ENCRYPTED PRIVATE KEY-----\n....\n-----END ENCRYPTED PRIVATE KEY-----\n",
+      "passphrase": "ghi...345"
+    }
+  },
+  "enterpriseID": "1234567"
+}
